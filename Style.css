@@ -4,17 +4,12 @@ html {
   
   * {
     box-sizing: inherit;
-    background-color: whitesmoke;
+    background-color: honeydew;
   }
   
   .bg-img {
-    /* The image used */
     background-image: url("download.jpg");
-  
     min-height: 350px;
-    
-  
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,13 +25,13 @@ html {
   }
 
   form {
-    border: .5em solid lighten(grey, 30%);
+    border: .5em solid (black, 10%);
     border-radius: .2em;
     max-width: 400px;
     margin: 3em auto;
     padding: 1em;
     border-style: inset;
-    background-color:white;
+    background-color:whitesmoke;
   }
   
   h1 {
@@ -53,34 +48,22 @@ html {
   
   input[type="text"],
   input[type="password"],
-  input[type="email"]
-  {
+  input[type="email"],
+  input[type="submit"]{
     display: block;
     width: 100%;
     padding: .5em;
     transition: .5s ease-out; 
-    
+    font-style: oblique;
   }
   
-  .registerbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
+
+  .loginbtn{
+    background-color: royalblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
     cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
   }
+
   
-  .registerbtn:hover {
-    opacity: 1;
-  }
-  
-  /* Add a blue text color to links */
-  a {
-    color: dodgerblue;
-  }
-  p:last-of-type {
-    margin-bottom: 0;
-  }
